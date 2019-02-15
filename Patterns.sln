@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{81B74419-FFB7-4A74-96AD-0C7D92C4ADFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Adapter\Adapter.csproj", "{B0ADE0AF-3A0F-4463-9CF1-4B87E2C33FD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrinterScannerCopierMFU", "PrinterScannerCopierMFU\PrinterScannerCopierMFU.csproj", "{084E0BEE-F129-4BBB-83F5-9609050E78FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "Bridge\Bridge.csproj", "{D9EB0FCA-E34C-454C-9E90-E72204BAC687}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{1AE8455C-6A78-414B-B754-35226E973A7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibility", "ChainOfResponsibility\ChainOfResponsibility.csproj", "{985E1582-4F11-4615-9143-1DEE2A5D22E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81B74419-FFB7-4A74-96AD-0C7D92C4ADFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81B74419-FFB7-4A74-96AD-0C7D92C4ADFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81B74419-FFB7-4A74-96AD-0C7D92C4ADFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81B74419-FFB7-4A74-96AD-0C7D92C4ADFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0ADE0AF-3A0F-4463-9CF1-4B87E2C33FD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0ADE0AF-3A0F-4463-9CF1-4B87E2C33FD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0ADE0AF-3A0F-4463-9CF1-4B87E2C33FD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0ADE0AF-3A0F-4463-9CF1-4B87E2C33FD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{084E0BEE-F129-4BBB-83F5-9609050E78FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{084E0BEE-F129-4BBB-83F5-9609050E78FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{084E0BEE-F129-4BBB-83F5-9609050E78FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{084E0BEE-F129-4BBB-83F5-9609050E78FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9EB0FCA-E34C-454C-9E90-E72204BAC687}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9EB0FCA-E34C-454C-9E90-E72204BAC687}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9EB0FCA-E34C-454C-9E90-E72204BAC687}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9EB0FCA-E34C-454C-9E90-E72204BAC687}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AE8455C-6A78-414B-B754-35226E973A7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AE8455C-6A78-414B-B754-35226E973A7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AE8455C-6A78-414B-B754-35226E973A7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AE8455C-6A78-414B-B754-35226E973A7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{985E1582-4F11-4615-9143-1DEE2A5D22E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{985E1582-4F11-4615-9143-1DEE2A5D22E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{985E1582-4F11-4615-9143-1DEE2A5D22E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{985E1582-4F11-4615-9143-1DEE2A5D22E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {45EB9356-913D-4FA6-8922-9175017D19C4}
+	EndGlobalSection
+EndGlobal
