@@ -1,6 +1,6 @@
 ﻿namespace Composite
 {
-    public interface Party
+    public interface IComponent
     {
         int Gold { get; set; }
         void Stats();

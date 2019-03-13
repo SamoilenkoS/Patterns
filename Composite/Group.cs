@@ -3,14 +3,14 @@ using System.Linq;
 
 namespace Composite
 {
-    public class Group : Party
+    public class Group : IComponent
     {
-        public List<Party> Members { get; set; }
+        public List<IComponent> Members { get; set; }
         public string Name { get; set; }
 
         public Group()
         {
-            Members = new List<Party>();
+            Members = new List<IComponent>();
         }
 
         public int Gold
