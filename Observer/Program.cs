@@ -20,7 +20,7 @@ namespace Observer
             // имитация торгов
             stock.Market();
 
-            Console.Read();
+            Console.ReadLine();
         }
     }
 }
