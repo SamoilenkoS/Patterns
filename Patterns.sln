@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade", "Facade\Facade.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Observer\Observer.csproj", "{C00E9E64-B47E-42A4-87D7-445D97017BEB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State", "State\State.csproj", "{5DE2FA28-BDBB-4434-86EC-BE8D2F388D0D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{C00E9E64-B47E-42A4-87D7-445D97017BEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C00E9E64-B47E-42A4-87D7-445D97017BEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C00E9E64-B47E-42A4-87D7-445D97017BEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DE2FA28-BDBB-4434-86EC-BE8D2F388D0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DE2FA28-BDBB-4434-86EC-BE8D2F388D0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DE2FA28-BDBB-4434-86EC-BE8D2F388D0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DE2FA28-BDBB-4434-86EC-BE8D2F388D0D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
