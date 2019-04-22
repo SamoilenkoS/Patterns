@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Observer
 {
@@ -20,7 +17,7 @@ namespace Observer
             // имитация торгов
             stock.Market();
 
-            Console.ReadLine();
+            Console.ReadKey();
         }
     }
 }
