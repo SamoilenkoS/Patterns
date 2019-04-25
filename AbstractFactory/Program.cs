@@ -6,13 +6,13 @@ namespace DesignPatterns
     {
         static void Main(string[] args)
         {
-            VictorianFurnitureFactory victorianFurniture = new VictorianFurnitureFactory();
-            victorianFurniture.CreateSofa();
-            victorianFurniture.CreateCoffeTable();
+            FurnitureFactory furnitureFactory = new VictorianFurnitureFactory();
+            furnitureFactory.CreateSofa();
+            furnitureFactory.CreateCoffeTable();
             Console.WriteLine();
 
-            ModernFurnitureFactory modernFurnitureFactory = new ModernFurnitureFactory();
-            modernFurnitureFactory.CreateChair();
+            furnitureFactory = new ModernFurnitureFactory();
+            furnitureFactory.CreateChair();
 
             Console.ReadKey();
         }

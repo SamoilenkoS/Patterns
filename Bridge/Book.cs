@@ -12,8 +12,8 @@ namespace Bridge
         public string Author { get; set; }
         public override void Print()
         {
-            Console.WriteLine(formatter.Format("Title", Title));
-            Console.WriteLine(formatter.Format("Author", Author));
+            Console.WriteLine(formatter.Format(nameof(Title), Title));
+            Console.WriteLine(formatter.Format(nameof(Author), Author));
         }
     }
 }
