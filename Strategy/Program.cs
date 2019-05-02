@@ -10,9 +10,11 @@ namespace Strategy
     {
         static void Main(string[] args)
         {
-            Car auto = new Car(4, "Volvo", new PetrolMove());
+            IMovable movable = new PetrolMove();
+            Car auto = new Car(4, "Volvo", movable);
             auto.Move();
-            auto = new Car(2, "Tesla", new ElectricMove());
+            movable = new ElectricMove();
+            auto = new Car(2, "Tesla", movable);
             auto.Move();
 
             Console.ReadKey();
