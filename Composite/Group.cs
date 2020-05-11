@@ -21,12 +21,16 @@ namespace Composite
             }
             set
             {
-                var eachSplit = value / Members.Count;
-                var leftOver = value % Members.Count;
-                foreach (var member in Members)
+                if (Members.Any())
                 {
-                    member.Gold += eachSplit + leftOver;
-                    leftOver = 0;
+                    var eachSplit = value / Members.Count;
+                    var leftOver = value % Members.Count;
+                    foreach (var member in Members)
+                    {
+                        member.Gold += eachSplit;
+                    }
+
+                    Members[0].Gold += leftOver;
                 }
             }
         }

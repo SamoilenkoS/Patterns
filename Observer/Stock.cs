@@ -13,6 +13,7 @@ namespace Observer
             observers = new List<IObserver>();
             stockInfo = new StockInfo();
         }
+
         public void RegisterObserver(IObserver observer)
         {
             observers.Add(observer);

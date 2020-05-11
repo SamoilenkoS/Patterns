@@ -15,6 +15,7 @@ namespace Facade
                               sybsystemA.A2() +
                               sybsystemB.B1());
         }
+
         public void Operation2()
         {
             Console.WriteLine("Operation 2\n" +

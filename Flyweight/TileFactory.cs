@@ -1,14 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace Flyweight
 {
     public class TileFactory
     {
         private static Dictionary<string, ITile> tiles = new Dictionary<string, ITile>();
+        private const string STONE = "Stone";
 
         static TileFactory()
         {
@@ -19,12 +16,13 @@ namespace Flyweight
         {
             switch (tileType)
             {
-                case "Stone":
-                    if (!tiles.ContainsKey("Stone"))
+                case STONE:
+                    if (!tiles.ContainsKey(STONE))
                     {
-                        tiles["Stone"] = new StoneTile();
+                        tiles[STONE] = new StoneTile();
                     }
-                    return tiles["Stone"];
+
+                    return tiles[STONE];
             }
 
             return null;
