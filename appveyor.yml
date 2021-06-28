@@ -6,4 +6,3 @@ before_build:
 build:
   verbosity: minimal
   publish_wap: true
-  image: Visual Studio 2019
