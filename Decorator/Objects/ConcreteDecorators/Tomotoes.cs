@@ -6,21 +6,21 @@ using System.Threading.Tasks;
 
 namespace Decorator
 {
-    public class DecoratorB : ComponentDecorator
+    public class Tomatoes : ComponentDecorator
     {
-        public DecoratorB(Component component)
+        public Tomatoes(Component component)
             :base(component)
         {
 
         }
         public override string Description()
         {
-            return base.Description() + " Decorator B extension";
+            return base.Description() + "+Tomatoes";
         }
 
         public override double Price()
         {
-            double decoratorBPrice = 2.3;
+            double decoratorBPrice = 2;
             return base.Price() + decoratorBPrice;
         }
     }

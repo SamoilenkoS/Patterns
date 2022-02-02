@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Decorator
 {
-    public class ConcreteComponents : Component
+    public class PizzaBody : Component
     {
         public override string Description()
         {
-            return "Concrete component";
+            return "Pizza body";
         }
 
         public override double Price()

@@ -6,16 +6,17 @@ using System.Threading.Tasks;
 
 namespace Decorator
 {
-    public class DecoratorA : ComponentDecorator
+    public class Cheeze : ComponentDecorator
     {
-        public DecoratorA(Component component)
+        public Cheeze(Component component)
             :base(component)
         {
 
         }
+
         public override string Description()
         {
-            return base.Description() + " Decorator A extension";
+            return base.Description() + " + Cheeze";
         }
 
         public override double Price()

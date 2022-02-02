@@ -6,10 +6,12 @@ namespace Decorator
     {
         static void Main(string[] args)
         {
-            Component component = new ConcreteComponents();
-            component = new DecoratorA(component);
-            component = new DecoratorB(component);
-            Console.WriteLine($"Description:{component.Description()}{Environment.NewLine}Price:{component.Price()}");
+            Component pizzaBody = new PizzaBody();//
+            Console.WriteLine($"Description:{pizzaBody.Description()}{Environment.NewLine}Price:{pizzaBody.Price()}");
+            pizzaBody = new Cheeze(pizzaBody);
+            pizzaBody = new Cheeze(pizzaBody);
+            pizzaBody = new Tomatoes(pizzaBody);
+            Console.WriteLine($"Description:{pizzaBody.Description()}{Environment.NewLine}Price:{pizzaBody.Price()}");
             Console.ReadKey();
         }
     }

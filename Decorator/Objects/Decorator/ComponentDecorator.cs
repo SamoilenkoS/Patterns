@@ -13,6 +13,7 @@ namespace Decorator
         {
             _component = component;
         }
+
         public override string Description()
         {
             return _component.Description();

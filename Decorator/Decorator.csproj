@@ -44,9 +44,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Objects\Component\Component.cs" />
-    <Compile Include="Objects\ConcreteComponent\ConcreteComponents.cs" />
-    <Compile Include="Objects\ConcreteDecorators\DecoratorB.cs" />
-    <Compile Include="Objects\ConcreteDecorators\DecoratorA.cs" />
+    <Compile Include="Objects\ConcreteComponent\PizzaBody.cs" />
+    <Compile Include="Objects\ConcreteDecorators\Tomotoes.cs" />
+    <Compile Include="Objects\ConcreteDecorators\Cheeze.cs" />
     <Compile Include="Objects\Decorator\ComponentDecorator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
